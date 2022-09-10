@@ -9,6 +9,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* 0 is positive */
-	return (0)
- }
+	/* 561319348 is positive */
+	return (0);
+}
