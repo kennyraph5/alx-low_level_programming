@@ -5,14 +5,21 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        if( a < 20 ) {
-      /* if condition is true then print the following */
-      printf("a is less than 20\n" );
-   } else {
-      /* if condition is false then print the following */
-      printf("a is not less than 20\n" );
-   }
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	If (n > 0)
+{
+Print f-s ("%d is positive \n")
+}
+else (n = 0)
+{
+Print f-s ("n = zero 2\n")
+}
+else (n < 0)
+{
+Print f-s ("n = negative 3\n")
+
+ (return (0); 
+}
