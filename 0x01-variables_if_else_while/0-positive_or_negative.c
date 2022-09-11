@@ -9,6 +9,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* \n > 0 */
-	return (1);
-}
+	if (n < 2)
+	{/* if condition is true then print the following */}
+	printf ("a is less than 2\n")
+	else {/* if condition is false then print the follwing */}
+	printf ("a is not less than 2\n");
