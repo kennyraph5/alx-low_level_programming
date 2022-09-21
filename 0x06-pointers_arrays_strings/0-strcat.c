@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * _strcat : function that concatenates two strings
- * @dest: first promg
- * @src: second promg
- * Return: strings
+ * _strcat - a function that concatenate two strings 
+ * @dest: first string
+ * @src: second string
+ * Return: string
  */
 char *_strcat(char *dest, char *src);
 {
 	int len = 0, i;
 
-	while (dest[len])
-		len++;
-	for (i = 0; src [i] != '\0'; i ++)
+	while (*dest[len])
+		len++
+
+	for (i = 0; *src[i] != '\0'; i++)
 	{
-		dest[len] = src [i]
-			len += 1;
+		*dest++ = *src++;
 	}
-	dest[len] = '\0';
-	return (dest);
-}
+
+	*dest = '\0';
+	return (dest)
