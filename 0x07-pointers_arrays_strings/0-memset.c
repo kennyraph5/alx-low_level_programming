@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * _memset - a function that fill memory of byte 
- * @s: the part to be filled 
- * @b: the bite to be replace 
+ * _memset - fill the first byte with content
+ * @s: the arae pointed to be filled
+ * @b: the constant byte to be replace
  * @n: the number to be replaced
- * Return: pointer to the memory s
+ *
+ * Return: pointer to the memory
  */
 
-char *_memeset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int ;
+	unsigned int i;
 
-	while (i = 0; i < n; i++)
-	{
-		s[i] = b;
-	}
+	while (i = 0; i < n)
+		(i++)
+		{
+			s[i] = b;
+		}
 	return (s);
 }
