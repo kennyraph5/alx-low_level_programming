@@ -1,13 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/*
- * File: lists.h
- * Auth: Isaac Baccah
- * Desc: Header file containing prototypes and definitions for all functions
- *       and types written in the 0x12-more_singly_linked_lists directory.
- */
-
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -16,7 +10,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ *
  */
 typedef struct listint_s
 {
@@ -40,4 +34,4 @@ size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
-#endif /* LISTS_H */
+#endif
